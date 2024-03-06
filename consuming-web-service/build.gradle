@@ -1,0 +1,106 @@
+plugins {
+	id 'java'
+	id 'org.springframework.boot' version '3.2.0'
+	id 'io.spring.dependency-management' version '1.1.4'
+}
+
+group = 'com.example'
+version = '0.0.1-SNAPSHOT'
+java {
+	sourceCompatibility = '17'
+}
+ext.jaxwsSourceDir = "${buildDir}/generated/sources/jaxws"
+
+// tag::configurations[]
+configurations {
+	jaxws
+}
+// end::configurations[]
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+// tag::dependency[]
+	implementation ('org.springframework.boot:spring-boot-starter-web-services') {
+		exclude group: 'org.springframework.boot', module: 'spring-boot-starter-tomcat'
+	}
+	jaxws 'com.sun.xml.ws:jaxws-tools:3.0.0',
+			'jakarta.xml.ws:jakarta.xml.ws-api:3.0.0',
+			'jakarta.xml.bind:jakarta.xml.bind-api:3.0.0',
+			'jakarta.activation:jakarta.activation-api:2.0.0',
+			'com.sun.xml.ws:jaxws-rt:3.0.0'
+// end::dependency[]
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.springframework.boot:spring-boot-starter'
+	implementation 'org.eclipse.persistence:eclipselink:3.0.2'
+	testImplementation('org.springframework.boot:spring-boot-starter-test')
+}
+
+// tag::wsdl[]
+
+task wsimport {
+	description = 'Generate classes from wsdl using wsimport'
+
+	doLast {
+		project.mkdir(jaxwsSourceDir)
+		ant {
+			taskdef(name: 'wsimport',
+					classname: 'com.sun.tools.ws.ant.WsImport',
+					classpath: configurations.jaxws.asPath
+			)
+			wsimport(
+					keep: true, //mantener los archivos generados
+					destdir: jaxwsSourceDir, //Destino de los archivos importados
+					extension: "true",
+					verbose: true, //Activar logs
+					wsdl: "${projectDir}/src/main/resources/wsimport/products.wsdl", // Ruta relativa al archivo WSDL en la carpeta resources
+					xnocompile: true,
+					package: "com.example.consumingwebservice.wsdl"
+			) {
+				xjcarg(value: "-XautoNameResolution")
+			}
+		}
+	}
+}
+
+
+import org.gradle.api.tasks.Exec
+// tag::wsdl[]
+/**
+task wsimport(type: Exec) {
+	description = 'Generate classes from wsdl using wsimport'
+
+	inputs.files fileTree('src/main/resources/wsimport')
+	outputs.dir jaxwsSourceDir
+
+	commandLine 'wsimport',
+			'-keep',
+			'-d', jaxwsSourceDir,
+			'-extension',
+			'-verbose',
+			'src/main/resources/wsimport/products.wsdl', // Ubicación del primer archivo WSDL
+			'-Xnocompile',
+			'-p', 'com.example.consumingwebservice.wsdl',
+			//'-B-Djavax.xml.bind.JAXBContextFactory=org.eclipse.persistence.jaxb.JAXBContextFactory', // Especifica el contexto de JAXB de EclipseLink
+			'-classpath', configurations.jaxws.asPath
+
+}
+**/
+sourceSets {
+	main {
+		java.srcDirs += jaxwsSourceDir
+	}
+}
+
+compileJava {
+	dependsOn wsimport
+}
+// end::wsdl[]
+
+
+
+tasks.named('test') {
+	useJUnitPlatform()
+}
