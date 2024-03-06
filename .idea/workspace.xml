@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e96b7c39-b390-4a13-9b96-e1aa0e81be98" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/com/example/consumingwebservice/ws/Add.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/consumingwebservice/ws/Add.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/consumingwebservice/ws/AddResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/consumingwebservice/ws/AddResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/consumingwebservice/ws/Calculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/consumingwebservice/ws/Calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/consumingwebservice/ws/CalculatorSoap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/consumingwebservice/ws/CalculatorSoap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/consumingwebservice/ws/Divide.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/consumingwebservice/ws/Divide.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/consumingwebservice/ws/DivideResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/consumingwebservice/ws/DivideResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/consumingwebservice/ws/GetProductRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/consumingwebservice/ws/GetProductRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/consumingwebservice/ws/GetProductResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/consumingwebservice/ws/GetProductResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/consumingwebservice/ws/GetProductsRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/consumingwebservice/ws/GetProductsRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/consumingwebservice/ws/GetProductsResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/consumingwebservice/ws/GetProductsResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/consumingwebservice/ws/Multiply.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/consumingwebservice/ws/Multiply.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/consumingwebservice/ws/MultiplyResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/consumingwebservice/ws/MultiplyResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/consumingwebservice/ws/ObjectFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/consumingwebservice/ws/ObjectFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/consumingwebservice/ws/PostProductRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/consumingwebservice/ws/PostProductRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/consumingwebservice/ws/PostProductResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/consumingwebservice/ws/PostProductResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/consumingwebservice/ws/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/consumingwebservice/ws/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/consumingwebservice/ws/ProductPort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/consumingwebservice/ws/ProductPort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/consumingwebservice/ws/ProductPortService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/consumingwebservice/ws/ProductPortService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/consumingwebservice/ws/Subtract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/consumingwebservice/ws/Subtract.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/consumingwebservice/ws/SubtractResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/consumingwebservice/ws/SubtractResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/consumingwebservice/ws/package-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/consumingwebservice/ws/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/demosoap/gen/GetProductRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/demosoap/gen/GetProductRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/demosoap/gen/GetProductResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/demosoap/gen/GetProductResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/demosoap/gen/GetProductsRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/demosoap/gen/GetProductsRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/demosoap/gen/GetProductsResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/demosoap/gen/GetProductsResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/demosoap/gen/ObjectFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/demosoap/gen/ObjectFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/demosoap/gen/PostProductRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/demosoap/gen/PostProductRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/demosoap/gen/PostProductResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/demosoap/gen/PostProductResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/demosoap/gen/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/demosoap/gen/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/demosoap/gen/ProductPort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/demosoap/gen/ProductPort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/demosoap/gen/ProductPortService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/demosoap/gen/ProductPortService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/demosoap/gen/package-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/example/demosoap/gen/package-info.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/consuming-web-service">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/consuming-web-service">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="consuming-web-service" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="consuming-web-service" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2cQc7G6mLPirrtVg8z5EpNW8hzk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/darkn/OneDrive/Documentos/Proyectos/consuming-web-service (1)",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "terminal"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\darkn\OneDrive\Documentos\Proyectos\consuming-web-service (1)\consuming-web-service\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ConsumingWebServiceApplication">
+    <configuration name="ConsumingWebServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.consumingwebservice.ConsumingWebServiceApplication" />
+      <module name="consuming-web-service.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.consumingwebservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="consuming-web-service [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/consuming-web-service" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="consuming-web-service [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/consuming-web-service" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="consuming-web-service [wsimport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/consuming-web-service" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="wsimport" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.consuming-web-service [build]" />
+        <item itemvalue="Gradle.consuming-web-service [clean]" />
+        <item itemvalue="Gradle.consuming-web-service [wsimport]" />
+        <item itemvalue="Application.ConsumingWebServiceApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e96b7c39-b390-4a13-9b96-e1aa0e81be98" name="Changes" comment="" />
+      <created>1708047073808</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708047073808</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.springframework.ws.client.WebServiceTransportException" package="org.springframework.ws.client" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
